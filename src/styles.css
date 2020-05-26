@@ -1,0 +1,21 @@
+#title,
+#bars {
+  text-align: center;
+  z-index: 0;
+}
+
+#tooltip {
+  align-items: center;
+  background: lightsteelblue;
+  border-radius: 2px;
+  display: flex;
+  font: 12px;
+  height: 50px;
+  justify-content: center;
+  padding: 2px;
+  pointer-events: none;
+  position: absolute;
+  text-align: center;
+  width: 200px;
+  z-index: 1;
+}
